@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: url('/home/pranav/Desktop/react_/my-app/WhatsApp Image 2024-12-11 at 18.17.05.jpeg') no-repeat center center fixed; /* Replace with a bot image URL */
+  background-size: cover;
+  color: #333;
+}
+
+.App {
+  text-align: center;
+}
+
+.header {
+  background-color: #32c2ee;
+  color: white;
+  padding: 20px 0;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+.header p {
+  margin: 5px 0 20px;
+}
+
+.search-section {
+  margin: 20px;
+}
+
+.search-section input {
+  padding: 10px;
+  width: 300px;
+  border: 2px solid #1e90ff;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.search-section button {
+  padding: 10px 20px;
+  margin-left: 10px;
+  background-color: #074a59c4;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.search-section button:hover {
+  background-color:#03232bc4;
+}
+
+.error {
+  color: red;
+  margin: 10px;
+}
+
+.result-section {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+}
+
+.filters {
+  width: 30%;
+  background: #f0f8ff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.filters h2 {
+  margin-bottom: 10px;
+}
+
+.filters label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.filters input[type='range'] {
+  width: 100%;
+}
+
+.details {
+  width: 60%;
+  padding: 20px;
+}
+
+.details h2 {
+  margin-bottom: 10px;
+  color: #1e90ff;
+}
+
+.details p {
+  font-size: 1.1rem;
+  margin: 5px 0;
+}
